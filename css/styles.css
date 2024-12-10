@@ -13,6 +13,34 @@
 }
 
 *{
-    font-family: 'Young Serif', serif;
-    /* font-family: 'Outfit'; */
+    /* font-family: 'Young Serif', serif; */
+    font-family: 'Outfit';
+    color: var(--stone900);
+}
+
+.recipePic {
+  max-width: 100%;
+  aspect-ratio: 13/6;
+}
+
+h1,h2 {
+  font-family: 'Young Serif', Serif;
+}
+
+h2, .rose9 {
+  color: var(--rose800);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+}
+
+.prepTime {
+  background-color: var(--rose50);
+  padding: 2rem;
+  border-radius: .5rem;
 }
