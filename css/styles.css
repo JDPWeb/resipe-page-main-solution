@@ -13,9 +13,15 @@
 }
 
 *{
-    /* font-family: 'Young Serif', serif; */
     font-family: 'Outfit';
     color: var(--stone900);
+}
+
+article {
+  max-width: 25rem;
+  min-width: 22rem;
+  margin: 0 auto;
+  /* background-color: yellowgreen; */
 }
 
 .recipePic {
@@ -36,11 +42,54 @@ h2, .rose9 {
 }
 
 section {
-  padding: 2rem;
+  padding: 1rem 2rem;
+}
+
+hr {
+  color: var(--stone150);
+  width: 85%;
+}
+
+.recipeDesc {
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
 .prepTime {
   background-color: var(--rose50);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: .5rem;
+}
+
+.prepTimeBkUp {
+  margin-left: -2rem;
+}
+
+.prepTimeBkUp li {
+  padding-left: 1.5rem;
+  margin: 1rem;
+  line-height: 1.5;
+}
+
+li::marker {
+  color: var(--rose800);
+  font-size: .75rem;
+}
+
+.sectionTitle {
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
+.ingredientsBkUp {
+  margin-left: -1rem;
+}
+
+.ingredientsBkUp li {
+  padding: .5rem 1.5rem;
+  line-height: 1.5;
+}
+
+.steps {
+
 }
