@@ -21,7 +21,6 @@ article {
   max-width: 25rem;
   min-width: 22rem;
   margin: 0 auto;
-  /* background-color: yellowgreen; */
 }
 
 .recipePic {
@@ -33,7 +32,11 @@ h1,h2 {
   font-family: 'Young Serif', Serif;
 }
 
-h2, .rose9 {
+h2 {
+  color: var(--brown800);
+}
+
+.rose9 {
   color: var(--rose800);
 }
 
@@ -46,7 +49,9 @@ section {
 }
 
 hr {
-  color: var(--stone150);
+  border: none;
+  background-color: var(--stone150);
+  height: 1px;
   width: 85%;
 }
 
@@ -72,8 +77,12 @@ hr {
 }
 
 li::marker {
-  color: var(--rose800);
+  color: var(--brown800);
   font-size: .75rem;
+}
+
+.prepTime li::marker {
+  color: var(--rose800);
 }
 
 .sectionTitle {
@@ -101,7 +110,53 @@ li::marker {
 }
 
 .steps li::marker {
-  color: var(--rose800);
+  color: var(--brown800);
   font-size: 1rem;
   font-weight: bold;
+}
+
+.tableDesc {
+  line-height: 1.5;
+}
+
+.nutritionTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutritionTable tr{
+  border-bottom: solid 1px var(--stone150);
+}
+
+.nutritionTable td{
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: var(--stone100);
+    min-height: 100vh ;
+  }
+
+  main {
+    background-color: var(--white);
+    margin: 2rem auto;
+    max-width: 41rem;
+    padding: 2.5rem;
+
+  }
+
+  article {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 100%;
+  }
+
+  section {
+    padding: 2rem 0;
+  }
+
+  hr {
+    width: 100%;
+  }
 }
