@@ -32,12 +32,17 @@ h1,h2 {
   font-family: 'Young Serif', Serif;
 }
 
+h1 {
+  font-weight: 600;
+}
+
 h2, .brown8 {
   color: var(--brown800);
 }
 
 .rose9 {
   color: var(--rose800);
+  font-size: 1.2rem;
 }
 
 .bold {
