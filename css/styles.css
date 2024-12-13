@@ -143,13 +143,17 @@ li::marker {
     margin: 2rem auto;
     max-width: 41rem;
     padding: 2.5rem;
-
+    border-radius: 1rem;
   }
 
   article {
     margin: 0 auto;
     padding: 0;
     min-width: 100%;
+  }
+
+  .recipePic {
+    border-radius: .5rem;
   }
 
   section {
